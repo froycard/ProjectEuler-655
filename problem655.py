@@ -24,15 +24,11 @@ def gen(n):
     AD={}
     BC={}
     for i in ad:  
-        if i in AD:   
-            AD[i]+=1  
-        else:   
-            AD[i]=1   
+        if i in AD: AD[i]+=1  
+        else: AD[i]=1   
     for i in bc:  
-        if i in BC:   
-            BC[i]+=1
-        else:   
-            BC[i]=1
+        if i in BC: BC[i]+=1
+        else:  BC[i]=1
     counter=0
     for i in AD:
         #tmp=mod-i
